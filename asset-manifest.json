@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/techsite/static/css/main.ce5a797e.css",
+    "main.js": "/techsite/static/js/main.8502d185.js",
+    "static/media/mapas.jpg": "/techsite/static/media/mapas.438ef43b11758bab36b3.jpg",
+    "index.html": "/techsite/index.html",
+    "main.ce5a797e.css.map": "/techsite/static/css/main.ce5a797e.css.map",
+    "main.8502d185.js.map": "/techsite/static/js/main.8502d185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce5a797e.css",
+    "static/js/main.8502d185.js"
+  ]
+}
