@@ -1,39 +1,216 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --color:#312F3A;
+    --font: 'Montserrat';
+}
+.App{
+    padding: 0 8em;
+    width: 70%;
+    margin: 0 auto;
+    min-width: 1120px;
+}
+html {font-size: 10px;
+height: -webkit-fill-available;
+overflow-x: hidden;}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+
+    line-height: 1.25;
+    overflow-x: hidden;
+    color: #312f3a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+
+p {
+    font-size: 22px;
+    line-height: 1.4;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,h2 {
+    color: #312f3a;
+    font-size: 7.2rem !important;
+    white-space: nowrap;
+    font-family: "Space Grotesk", sans-serif;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+#show{
+    display: block;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+#notshow {
+    display: none;
 }
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1060px) {
+    .App {
+        min-width: 850px;
+    }
+    .bg-map::before {
+        top: 45em;
+    }
+    h1,h2 {
+        font-size: 5.2rem;
+    }
+    #section3 .col-sm {
+        flex: none;
+    }
+    #section3__title {
+        font-size: 6.2rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    #section3 .row {
+        margin-top: 2em;
+        margin-left: 0;
+        padding: 0;
+    }
+    #section3 .list li {
+        flex-direction: column;
+         align-items: flex-start;
+        justify-content: flex-start;
+    }
+    #section3 .list li>span {
+        margin-left: 0;
+    }
+    .img-responsive {
+        width: 100%;
+    }
+    #section3 .list li>span {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+   
+    
+}
+@media screen and (max-width: 860px) {
+  
+        h1,h2 {
+            font-size: 5.2rem !important;
+        }
+        .App {
+            min-width: 100%;
+        }
+        #list {
+            display: none;
+        }
+        #header__button {
+            display: block;
+        }
+        #header {
+            padding: 4rem 0 1rem;
+        }
+        #open-menu {
+            display: block;
+        }
+        .bg-map::before {
+            top: 39em;
+        }
+      
+    }
+@media screen and (mix-width: 860px) {
+    #section2__list {
+        justify-content: space-between;
+    }
+    #section2__list li {
+        max-width: 32.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        .App {
+            padding: 2.5em;
+            width: 100%;
+        }
+        h1, h2 {
+            font-size: 3.8em !important;
+        }
+        #description {
+            min-width: 15em;
+        }
+
+        #section2__list {
+            display: flex;
+            margin-top: 5em;
+            flex-direction: column;
+            padding: 0;
+        }   
+        .bg-map::before {
+            margin: 0 auto;
+            left: -1em;
+            right: 0;
+            top: 31em;
+            width: 90%;
+            min-width: 35em;
+        }
+        #header {
+            padding: 2rem 0 3rem;
+        }
+        #section2__title2 {
+            font-size: 3.2rem;
+        }
+        #section1 {
+            margin-bottom: 0;
+        }
+
+        #section2__list li {
+            margin-bottom: 2em;
+        }  
+        #section3__title {
+            font-size: 3.4rem;
+        }
+    }
+    @media screen and (min-width: 576px)
+    {
+    .pl-sm-2, .px-sm-2 {
+        padding-left: 0.5rem !important;
+    }
+    .pr-sm-2, .px-sm-2 {
+        padding-right: 0.5rem !important;
+    }
+    }
+    @media screen and (max-width: 290px) {
+        .App {
+            padding: 1.5em;
+        }
+        #title {
+            font-size: 2.5em;
+        }
+        #description {
+            font-size: 1.5rem;
+        }
+        .bg-map::before {
+            left: -4em;
+            right: 0;
+            top: 21em;
+            width: 70%;
+        }
+        #top {
+            height: 60em;
+        }
+        #section3 .list li {
+            min-width: 200px;
+        }
+        h1,h2 {
+            font-size: 2.7rem !important;
+        }
+        
+    }
