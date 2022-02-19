@@ -21,7 +21,7 @@
 #collapsUl{
  padding: 0;
  margin-bottom: 2em;
- font-family: "Montserrat";
+ font-family: var(--font);
 }
 
 #collapsUl li {

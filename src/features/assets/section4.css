@@ -1,0 +1,205 @@
+#section4 {
+    padding: 7rem 0;
+    position: relative;
+    margin-top: 10em;
+}
+
+#section4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(69.64deg, #201f21 5.56%, #312f3a 100%),linear-gradient(94.01deg, #e8e6f2 0%, #f6f5fa 98.65%);
+    background-image: url(../image/messages-bg.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.section4__container {
+    width: 70%;
+    min-width: 104.5em;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+#section4__container-title {
+    font-size: 6.6rem;
+    font-family: var(--font);
+    color: white;
+}
+
+.message {
+    display: flex;
+    margin: 1.8rem 0;
+}
+
+.message-circle {
+    position: relative;
+    margin-top: auto;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    background-color: #4c4a57;
+}
+
+.message-circle::before {
+    content: '';
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background: url(../image/user-icon.svg) no-repeat,center;
+    background-size: contain;
+}
+
+.answer-circle::before {
+    content: '';
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background: url(../image/answer-icon.svg) no-repeat,center;
+    background-size: contain;
+}
+
+.message-text{
+        display: inline-block;
+        max-width: 82rem;
+        border-radius: 2.4rem 2.4rem 2.4rem 0;
+        background-color: #4c4a57;
+        color: white;
+        padding: 2rem 3rem;
+        font-family: var(--font2);
+        font-size: 2.4rem;
+        font-weight: 400;
+        line-height: 1.25;
+        margin: 0 2.4rem;
+        margin-bottom: 0;
+}
+
+.answer {
+    flex-direction: row-reverse;
+    display: flex;
+    margin: 1.8rem 0;
+}
+
+.answer-text {
+    display: inline-block;
+    max-width: 82rem;
+    border-radius: 2.4rem 2.4rem 0 2.4rem;
+    background-color: #147efb;
+    color: white;
+    padding: 2rem 3rem;
+    font-family: var(--font2);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0 2.4rem;
+    margin-bottom: 0;
+}
+
+    .answer-circle {
+        position: relative;
+        margin-top: auto;
+        min-width: 60px;
+        min-height: 60px;
+        border-radius: 50%;
+        background-color: #4c4a57;
+    }
+
+#message-container {
+    margin-top: 6em;
+}
+
+@media screen and (max-width: 1050px) {
+    .section4__container {
+        min-width: 100%;
+    }
+    #section4__container-title {
+        font-size: 5rem;
+        margin-left: 2em;
+    }
+    #section4 {
+        padding: 5rem 0;
+    }
+} 
+
+@media screen and (max-width: 1130px) {
+    .message-text {
+        font-size: 1.8rem;
+    }
+    .answer-text {
+        font-size: 1.8rem;
+        max-width: 70%;
+    }
+    #section4 {
+        margin-top: 2em;
+    }
+} 
+
+@media screen and (max-width: 890px) {
+    .section4__container {
+        width: 80%;
+    }
+    .message-text {
+        font-size: 1.8rem;
+    }
+    .answer-text {
+        font-size: 1.8rem;
+    }
+    .answer-text, .message-text {
+        max-width: 37rem;
+    }
+    #section4__container-title {
+        margin-left: 0.5em;
+    }
+} 
+
+@media screen and (max-width: 575px) {
+    .answer-text, .message-text {
+        max-width: 25rem;
+        margin: 0 0.4em;
+    }
+    #section4__container-title {
+        font-size: 3.2rem;
+        margin-left: 0.4em;
+    }
+    #section4 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .answer-circle {
+            min-width: 40px;
+            min-height: 40px;
+    }
+    .message-circle {
+        min-width: 40px;
+        min-height: 40px;
+}
+}
+@media screen and (max-width: 450px) {
+    #message-container {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section4__container {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .answer-text, .message-text {
+        margin: 0 1rem;
+        font-size: 1.7rem;
+    }
+}

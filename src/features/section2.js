@@ -22,7 +22,7 @@ function Section2() {
         <span>Use Ruby and JavaScript technology stacks</span>
         </div>
         </li>
-        <li id = "quarter-item" className="col-12 col-sm">
+        <li id = "quarter-item2" className="col-12 col-sm">
         <div className="itm">
         <i>
         <img alt="web audience icon inactive" src="https://reintech.io/assets/home_page/_src/icons/web_audience_icon_inactive-d73f01fcaa6ec8efcdd1fa4f802fad1d84fd4af1b80b3bd1dd626d7711bd3f56.svg" />

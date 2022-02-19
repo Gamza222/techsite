@@ -1,0 +1,171 @@
+#section5 {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 100%;
+}
+
+#section5__container {
+    width: 100%;
+}
+
+
+#section5__title {
+    font-size: 6.4rem;
+    font-family: var(--font2);
+    margin-bottom: 0.4em;
+}
+#section5__description {
+    font-family: var(--font3);
+    font-size: 2.4rem;
+}
+
+#section5_1, #section5_2,#section5_3,#section5_4 {
+    padding: 0 2em;
+}
+
+#section5__list {
+    font-size: 2rem;
+    padding-left: 0;
+}
+
+.section5__list-item {
+    position: relative;
+    height: inline;
+    line-height: 1.2;
+    padding-left: 3rem;
+    margin-top: 1em;
+}
+
+.section5__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #6aa95e url(../image/check-sign.svg) no-repeat center;
+    background-size: 60%;
+    border-radius: 50%;
+}
+
+
+.itm-chart {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 45rem;
+    color: white;
+}
+
+.itm-chart.active .graph {
+    height: 100%;
+    opacity: 1;
+}
+
+.itm-chart .left {
+    height: 15%;
+    max-height: 40.8rem;
+    position: relative;
+    margin-left: auto;
+    transition-delay: 0.1s;
+}
+
+.itm-chart .left, .itm-chart .right {
+    position: relative;
+    opacity: 0;
+    width: 38%;
+    transition: height 0.6s ease-out, opacity 0.4s ease;
+}
+
+.itm-chart .left>div {
+    height: 100%;
+    background-color: #b80225;
+}
+
+.itm-chart .left>div, .itm-chart .right>div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.4rem;
+    line-height: 2.4;
+}
+
+.itm-chart .left>div+div {
+    height: 86%;
+    background-color: #e9032f;
+}
+
+.itm-chart .left>div+div+div {
+    height: 72%;
+    background-color: #fb2952;
+}
+
+
+.itm-chart .left span.range {
+    position: absolute;
+    left: -6rem;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 1.5rem;
+    height: 100%;
+    color: rgba(49,47,58,0.4);
+    margin: 0;
+}
+
+.itm-chart .left span.range::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    width: 1.3rem;
+    margin: 0 3px;
+    height: 100%;
+    background: url(../image/graph-line.svg) no-repeat center;
+    background-size: contain;
+}
+
+
+.itm-chart .left .txt, .itm-chart .right .txt {
+    text-align: left;
+}
+
+.itm-chart .left .txt, .itm-chart .right .txt {
+    position: absolute;
+    bottom: 105%;
+    width: 100%;
+    margin-bottom: 0;
+    color: #312f3a;
+    font-size: 1.6rem;
+}
+
+.itm-chart .right {
+    height: 15%;
+    max-height: 26rem;
+    margin-left: 11%;
+    transition-duration: 0.9s;
+}
+
+.itm-chart .left>div, .itm-chart .right>div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.4rem;
+    line-height: 2.4;
+}
+
+
+.itm-chart .right>div+div {
+    height: 85%;
+    background-color: #fc8652;
+}
+
+.itm-chart .right>div {
+    height: 100%;
+    background-color: #fb6521;
+    line-height: 1em;
+}
