@@ -13,9 +13,9 @@
 .App {
     width: 100%;
 }
-#main{
+.main{
     padding: 0 8em;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     min-width: 1120px;
 }
@@ -58,6 +58,10 @@ li{
     text-decoration: none;
 }
 
+.btn {
+    min-width: 24rem;
+}
+
 
 
 .btn:not(:disabled):not(.disabled) {
@@ -65,7 +69,7 @@ li{
 }
 
 @media screen and (max-width: 1060px) {
-    #main {
+    .main {
         min-width: 850px;
     }
     .bg-map::before {
@@ -104,7 +108,7 @@ li{
 }
 
 @media screen and (max-width: 1160px) {
-    #main {
+    .main {
         padding: 0 4em;
     }
     #section5 {
@@ -119,13 +123,22 @@ li{
     #section5__title {
         font-size: 5.2rem;
     }
+    #section6__title {
+        font-size: 5.6rem;
+    }
+    .section6__container-list-item {
+        max-width: 250px;
+    }
+    .section6__container-title {
+        font-size: 4rem;
+    }
 }
 @media screen and (max-width: 860px) {
   
         h1,h2 {
             font-size: 5.2rem !important;
         }
-        #main {
+        .main {
             min-width: 100%;
         }
         #list {
@@ -146,20 +159,35 @@ li{
         .section5__list-item {
             margin-top: 1.6em;
         }
+        #section5_2 {
+            margin-top: 5em;
+        }
+        #section6__title {
+            font-size: 4.6rem;
+        }
+        .section6__container-list-item {
+            max-width: 270px;
+        }
       
     }
-@media screen and (mix-width: 860px) {
-    #section2__list {
-        justify-content: space-between;
+@media screen and (max-width: 860px) {
+    .section5__title {
+        font-size: 3.2rem;
     }
-    
-    #section2__list li {
-        max-width: 32.5%;
+    .section5__description {
+        font-family: var(--font3);
+        font-size: 22px;
+    }
+    .section6__container-title {
+        font-size: 2.8rem;
+    }
+    .section6__container-list-item {
+        padding-top: 1.3em;
     }
 }
 
 @media screen and (max-width: 600px) {
-        #main {
+        .main {
             padding: 2.5em;
             width: 100%;
         }
@@ -211,6 +239,39 @@ li{
         #section5_2 {
             margin-top: 5em;
         }
+        #section5 .btn {
+            min-width: 24rem;
+            width: 100%;
+        }
+        #section6 {
+            padding: 0 0;
+        }
+        .section6__container-padder {
+            padding-top: 2em;
+        }
+        .section6__container-list {
+            margin-left: 1em;
+        }
+        .section6__container-marginer {
+            margin-top: 4em;
+        }
+        .section6__container-title {
+            font-size: 2.8rem;
+            margin-left: 1.1em;
+        }
+        .section6__container-inf {
+            padding-left: 2em;
+        }
+        .section6__container-list-item {
+            padding-top: 1.5rem;
+        }
+        #section5_3, #section5_4 {
+            margin-top: 3em;
+        }
+        #section5 {
+            margin-bottom: 1em;
+        }
+
     }
     @media screen and (min-width: 576px)
     {
@@ -220,9 +281,10 @@ li{
     .pr-sm-2, .px-sm-2 {
         padding-right: 0.5rem !important;
     }
+   
     }
     @media screen and (max-width: 290px) {
-        #main  {
+        .main  {
             padding: 1.5em;
         }
         #title {
@@ -245,6 +307,20 @@ li{
         }
         h1,h2 {
             font-size: 2.7rem !important;
+        }
+        #section5 .btn {
+            width: 80%;
+            margin-right: 2em;
+        }
+        .section6__container-inf {
+            padding-left: 1em;
+        }
+        .section6__container-title {
+            font-size: 2rem;
+            margin-left: 1.1em;
+        }
+        .section6__container-list-item {
+            font-size: 1.5rem;
         }
         
     }

@@ -48,31 +48,44 @@ function Section5() {
     <div id="section5">
       <div id="section5__container">
         <div className="row">
-        <div class="col-12 col-md-6 my-auto" id="section5_1">
-            <div id="itm-chart" class={`itm itm-chart ${isActive()}`}>
-            <div class="left graph">
-            <span class="range">$</span>
-            <p class="txt">Local Developer</p>
+        <div className="col-12 col-md-6 my-auto" id="section5_1">
+            <div id="itm-chart" className={`itm itm-chart ${isActive()}`}>
+            <div className="left graph">
+            <span className="range">$</span>
+            <p className="txt">Local Developer</p>
             <div>Insurance</div>
             <div>Tax</div>
             <div>Salary</div>
             </div>
-            <div class="right graph">
-            <p class="txt">Reintech Developer</p>
-            <div class="rfee">Reintech fee</div>
+            <div className="right graph">
+            <p className="txt">Reintech Developer</p>
+            <div className="rfee">Reintech fee</div>
             <div>Developer's cost</div>
             </div>
             </div>
         </div>
-        <div class="col-12 col-md-6" id="section5_2">
-          <h3 id="section5__title">What does it cost?</h3>
-          <p id='section5__description'>Ukrainian developers are cheaper than US or EU developers. Why? Salaries are lower, and you do not have to pay for insurance and tax. We offer:</p>
+        <div className="col-12 col-md-6" id="section5_2">
+          <h3 className="section5__title">What does it cost?</h3>
+          <p className='section5__description'>Ukrainian developers are cheaper than US or EU developers. Why? Salaries are lower, and you do not have to pay for insurance and tax. We offer:</p>
           <ul id="section5__list">
-            <li class="section5__list-item">Transparent, fixed fees</li>
-            <li class="section5__list-item">Seemless transactions - pay directly to developers</li>
-            <li class="section5__list-item">Pay as you go fees - pay only for working hours</li>
+            <li className="section5__list-item">Transparent, fixed fees</li>
+            <li className="section5__list-item">Seemless transactions - pay directly to developers</li>
+            <li className="section5__list-item">Pay as you go fees - pay only for working hours</li>
           </ul>
         </div>
+        <div class="col-12 col-md-6" id="section5_3">
+          <div id="section5_3-container">
+            <h3 className="section5__title">How Do I Start?</h3>
+            <p className='section5__description'>Send us a message, and we'll contact you to discuss your hiring needs.</p>
+            <a class="btn btn-primary" href="/client/new">Get Started</a>
+          </div>
+          </div>
+        <div className="col-12 col-md-6" id="section5_4">
+          <img id="section5__image" alt="time report icon" src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg"/>
+        </div>
+        
+
+        
         </div>
         </div>
     </div>
