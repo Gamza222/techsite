@@ -5,7 +5,7 @@ function Section6() {
   return (
     <div id="section6">
             <div className="main">
-            <h3 id = 'section6__title'>Core service</h3>
+            <h3 className = 'titles'>Core service</h3>
             <ul className="row riv2">
             <li className="col-12 col-sm-6 section6__container-padder">
                 <div className="section6__container">
