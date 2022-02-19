@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/techsite/static/css/main.e877b62a.css",
-    "main.js": "/techsite/static/js/main.bba9e508.js",
+    "main.css": "/techsite/static/css/main.2fd11fc8.css",
+    "main.js": "/techsite/static/js/main.947a75f8.js",
     "static/media/mapas.jpg": "/techsite/static/media/mapas.438ef43b11758bab36b3.jpg",
     "static/media/messages-bg.png": "/techsite/static/media/messages-bg.0bba097cf0c138b4d60b.png",
     "index.html": "/techsite/index.html",
+    "static/media/comma1.svg": "/techsite/static/media/comma1.7a832725e773de3aff3799f094b904b8.svg",
     "static/media/answer-icon.svg": "/techsite/static/media/answer-icon.a92d8770f1855f9f59e9.svg",
     "static/media/user-icon.svg": "/techsite/static/media/user-icon.1ad11d7cc33997fc94ef.svg",
     "static/media/graph-line.svg": "/techsite/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
     "static/media/check-sign.svg": "/techsite/static/media/check-sign.a1be6ebcefa454512463.svg",
-    "main.e877b62a.css.map": "/techsite/static/css/main.e877b62a.css.map",
-    "main.bba9e508.js.map": "/techsite/static/js/main.bba9e508.js.map"
+    "main.2fd11fc8.css.map": "/techsite/static/css/main.2fd11fc8.css.map",
+    "main.947a75f8.js.map": "/techsite/static/js/main.947a75f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e877b62a.css",
-    "static/js/main.bba9e508.js"
+    "static/css/main.2fd11fc8.css",
+    "static/js/main.947a75f8.js"
   ]
 }
