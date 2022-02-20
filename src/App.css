@@ -1,15 +1,24 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --color:#312F3A;
     --font: 'Maven Pro';
     --font2: "Space Grotesk", sans-serif;
     --font3: 'Montserrat', sans-serif;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+a, li, p {
+    font-family: var(--font3);
+    font-weight: 600;
+}
+
+
+
+
 .titles {
     font-family: var(--font2);
     font-size: 6.4rem;
@@ -83,6 +92,18 @@ li{
     cursor: pointer;
 }
 
+.btn-grey {
+    border: 2px solid #e8e6f2 !important;
+    color: #312f3a !important;
+}
+
+.btn-grey:hover, .btn-grey:active {
+    background-color: #7c6afa !important;
+    color: white !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
 @media screen and (max-width: 1060px) {
     .main {
         min-width: 850px;
@@ -120,6 +141,12 @@ li{
     #section3 .list li>span {
         font-size: 1.6rem;
     }
+    .form-accept {
+        font-size: 1.1rem;
+        color: grey;
+        margin-top: 3em;
+    }
+    
 }
 
 @media screen and (max-width: 1160px) {
@@ -146,6 +173,21 @@ li{
     }
     .section6__container-title {
         font-size: 4rem;
+    }
+    .pricing-item {
+        width: 80%;
+        margin-bottom: 3em;
+    }
+    .section10__descr-container {
+        flex-direction: column;
+    }
+    .email {
+        padding: 0;
+    }
+    .section10__descr {
+        font-size: 1.8em;
+        width: 100%;
+        margin: 0.4em 0 2em 0;
     }
 }
 @media screen and (max-width: 860px) {
@@ -192,7 +234,12 @@ li{
         .nigga {
             width: 48%;
         }
-      
+        .form-accept {
+            font-size: 1rem;
+        }
+        #section10 .btn {
+            width: 100%;
+        }
     }
 @media screen and (max-width: 860px) {
     .section5__title {
@@ -200,13 +247,28 @@ li{
     }
     .section5__description {
         font-family: var(--font3);
-        font-size: 22px;
+        font-size: 2rem;
     }
     .section6__container-title {
         font-size: 2.8rem;
     }
     .section6__container-list-item {
         padding-top: 1.3em;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .logo-links {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .footer-bottom {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-header {
+        margin-top: 4em;
+        width: 70%;
     }
 }
 
@@ -280,14 +342,16 @@ li{
             margin-top: 4em;
         }
         .section6__container-title {
-            font-size: 2.8rem;
-            margin-left: 1.1em;
+            font-size: 2.2rem;
+            margin-left: 1.3em;
         }
         .section6__container-inf {
             padding-left: 2em;
         }
         .section6__container-list-item {
             padding-top: 1.5rem;
+            font-size: 1.6rem;
+            font-family: var(--font3);
         }
         #section5_3, #section5_4 {
             margin-top: 3em;
@@ -323,6 +387,12 @@ li{
         #section7 {
             padding-top: 2em;
         }
+        #section6 .titles {
+            font-size: 4rem;
+            margin-left: 0.74em;
+            margin-bottom: 0.6em;
+            margin-top: 0.9em;
+        }
         .coma {
             width: 3.8em;
             margin-bottom: 2em;
@@ -352,15 +422,95 @@ li{
             margin-top: -0.3em;
         }
         .nigga-text {
-            margin: 0.2em 0;
+            margin: 0.4em 0;
         }
         #team .bloks-elem__text {
             font-size: 1.4rem;
-            margin: 0.2em;
+            margin: 0;
         }
         .texts {
             font-size: 2rem;
             margin-top: 1em;
+        }
+        #section8 .titles {
+            padding: 0;
+        }
+        .nigga {
+            margin-bottom: 3em;
+        }
+        .pricing-item {
+            width: 100%;
+        }
+        .pricing-options__item {
+            font-size: 1.4rem;
+        }
+        .price {
+            font-size: 4rem;
+        }
+        .pricing-options__description {
+            font-size: 1.4rem;
+        }
+        #section9 .btn {
+            font-size: 1.4rem;
+        }
+        .pricing-item {
+            padding: 0 1.6em 2em 1.6em;
+        }
+        #section9 .btn {
+            font-size: 1.5rem;
+        }
+        #section10 {
+            padding: 1em 0;
+            padding-bottom: 3em;
+        }
+        #section10 .form-control {
+            flex-direction: column;
+        }
+        #section10 .form-control {
+            height: 45em;
+            margin-top: 0;
+        }
+        .form-input {
+            width: 100%;
+            padding: 0;
+        }
+        .form-input-message {
+            padding: 0;
+            width: 100%;
+        }
+        .section10__title {
+            font-size: 4em;
+            margin-bottom: 0.6em;
+        }
+        .section10__descr {
+            font-size: 1.4em;
+            margin: 0.4em 0 0.2em 0;
+        }
+        .email {
+            font-size: 1.8em;
+        }
+        .input-lable {
+            display: block;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: grey;
+        }
+        .logo-links {
+            margin: 0;
+        }
+        .footer-bottom {
+            align-items: flex-start;
+        }
+        .footer-header {
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .footer-header li {
+            width: 50%;
+            margin: 1em 0;
+        }
+        #footer-item-right {
+            padding-left: 2em;
         }
 
     }
@@ -413,7 +563,37 @@ li{
         .section6__container-list-item {
             font-size: 1.5rem;
         }
-        
+        .pricing-item {
+            padding: 0 0.5em 2em 0.5em;
+        }
+        #section9 .btn {
+            font-size: 1.3rem;
+        }
+        .section5__description {
+            font-size: 1.6rem;
+        }
+        .section5__list-item {
+            font-size: 1.4rem;
+        }
+        #section8 {
+            padding-bottom: 0;
+        }
+        #section9 {
+            padding-top: 0;
+        }
+        #section9 .main {
+            padding-top: 0;
+        }
+        .pricing {
+            margin-top: 3em;
+        }
+        #section5_3 {
+            padding-left: 1rem;
+        }
+        #section6 .titles {
+            font-size: 3.2rem;
+            margin-left: 0.54em;
+        }
     }
 
     

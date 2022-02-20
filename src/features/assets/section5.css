@@ -22,6 +22,11 @@
 #section5_1, #section5_2,#section5_3,#section5_4 {
     padding: 0 2em;
 }
+#section5_3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 #section5__list {
     font-size: 2rem;
@@ -51,12 +56,13 @@
 
 #section5_3, #section5_4{
     margin-top: 10em;
+    display: flex;
 }
 
 #section5__image {
     width: 100%;
     background-color: grey;
-    height: 100%;
+    margin: auto;
 }
 
 #section5_3 .btn-primary {

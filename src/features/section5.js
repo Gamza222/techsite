@@ -12,6 +12,7 @@ function Section5() {
       let elem = document.querySelector("#itm-chart");
       let offset = elem.getBoundingClientRect();
       console.log (offset.y);
+      console.log(position)
       if (height <= 1500 && width <=1200 && height >= 1200 && width >= 1000) {
       if (offset.y <= 990) {
         setPosition(true);
@@ -42,6 +43,7 @@ function Section5() {
         return '';
       }
   }
+
 
 
   return (
@@ -81,7 +83,7 @@ function Section5() {
           </div>
           </div>
         <div className="col-12 col-md-6" id="section5_4">
-          <img id="section5__image" alt="time report icon" src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg"/>
+          <img id="section5__image" alt="time report icon" src="https://images.pexels.com/photos/2422278/pexels-photo-2422278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
         </div>
         
 

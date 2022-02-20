@@ -7,10 +7,7 @@
     height: 100%;
 }
 
-.titles {
-    font-family: var(--font2);
-    font-size: 6.4rem;
-}
+
 
 .coma {
     margin-bottom: 6em;
@@ -51,5 +48,5 @@
 .bloks-elem__author-desc {
     font-family: var(--font3);
     font-size: 1.7rem;
-    opacity: 0.6;
+    opacity: 0.8;
 }

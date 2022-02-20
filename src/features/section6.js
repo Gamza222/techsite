@@ -19,7 +19,9 @@ function Section6() {
                 </div>
             </li>
             <div className="col-12 col-sm-6 section6__container-padder section6__container-marginer">
-                    <div className="section6__container-image"></div>   
+                    <div className="section6__container-image">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="section6__container-img" />
+                    </div>   
                 </div>
                 <div className="col-12 col-sm-6 section6__container-padder section6__container-marginer">
                     <div className="section6__container-inf">
@@ -44,7 +46,9 @@ function Section6() {
                     </div> 
                 </div>
                 <div className="col-12 col-sm-6 section6__container-padder section6__container-marginer">
-                    <div className="section6__container-image"></div>   
+                    <div className="section6__container-image">
+                        <img src="https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="section6__container-img" />
+                    </div>   
                 </div>
                 <li className="col-12 col-sm-6 section6__container-padder">
                 <div className="section6__container">

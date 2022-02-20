@@ -9,6 +9,9 @@ import Section5 from './features/section5.js';
 import Section6 from './features/section6.js';
 import Section7 from './features/section7.js';
 import Section8 from './features/section8.js';
+import Section9 from './features/section9.js';
+import Section10 from './features/section10.js';
+import SectionFooter from './features/sectionfooter.js';
 import Bari from './app/chart.js'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,6 +34,8 @@ function App() {
       <Section7 />
       </div>
       <Section8 />
+      <Section9 />
+      <Section10 />
     </div>
   );
 }

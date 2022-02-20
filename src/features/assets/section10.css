@@ -1,0 +1,137 @@
+#section10 {
+    background: linear-gradient(67.74deg, #000 8.12%, #312f3a 100%);
+    padding: 4em 0;
+}
+
+.section10__title {
+    font-size: 6.4em;
+    font-family: var(--font2);
+    color: white;
+}
+
+.section10__descr {
+    font-size: 2em;
+    font-family: var(--font3);
+    color: white;
+    width: 50%;
+    line-height: 1.8;
+}
+
+.section10__descr-container {
+    display: flex;
+}
+#section10 .form-control {
+    width: 100%;
+    height: 25em;
+    display: flex;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.email {
+    padding: 0 1.1em;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: var(--font3);
+    color: #7c6afa;
+}
+
+.form-input {
+    width: 50%;
+    padding-right: 2em;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+.input-section{
+    width: 100%;
+    margin-top: 3em;
+}
+.input-lable {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: rgba(255,255,255,0.5);
+}
+.input-input {
+        display: block;
+        width: 100%;
+        height: 3em;
+        font-size: 1.6rem;
+        padding: 0 1em;
+        line-height: 1.5;
+        color: #ffffff;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid rgba(255,255,255,0.5);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-input:focus-visible {
+    outline: none;
+}
+
+.input-input:required:valid {
+    border-color: green;
+}
+
+.input-input:focus {
+    border-color: red;
+}
+
+.form-input-message {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 2em;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.input-message {
+    display: block;
+        width: 100%;
+        height: 80%;
+        font-size: 1.6rem;
+        padding: 0 1em;
+        line-height: 1.5;
+        color: #ffffff;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid rgba(255,255,255,0.5);
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+    .form-input__message-container {
+        height: 70%;
+    }
+
+    .form-accept {
+        font-size: 1.3rem;
+        color: grey;
+        margin-top: 3em;
+    }
+
+    #privacy-policy a {
+        color: white;
+        text-decoration: none;
+    }
+    #privacy-policy a:hover {
+        color: white;
+        text-decoration: underline white;
+    }
+
+    #section10 .btn {
+        font-size: 1.5em;
+        padding: 1.3em;
+        font-weight: bold;
+        font-family: var(--font2);
+        margin-top: 2em;
+
+    }
