@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techsite/static/css/main.aa061244.css",
-    "main.js": "/techsite/static/js/main.988cdee0.js",
+    "main.css": "/techsite/static/css/main.9e1cf960.css",
+    "main.js": "/techsite/static/js/main.e3e3a4d6.js",
     "static/media/devlogo.svg": "/techsite/static/media/devlogo.3b990813e815f49903a7564bc5329704.svg",
     "static/media/mapas.jpg": "/techsite/static/media/mapas.438ef43b11758bab36b3.jpg",
     "static/media/messages-bg.png": "/techsite/static/media/messages-bg.0bba097cf0c138b4d60b.png",
@@ -12,11 +12,11 @@
     "static/media/kross.svg": "/techsite/static/media/kross.2001e956d267bc9b1a2349ee0a8ee521.svg",
     "static/media/graph-line.svg": "/techsite/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
     "static/media/check-sign.svg": "/techsite/static/media/check-sign.a1be6ebcefa454512463.svg",
-    "main.aa061244.css.map": "/techsite/static/css/main.aa061244.css.map",
-    "main.988cdee0.js.map": "/techsite/static/js/main.988cdee0.js.map"
+    "main.9e1cf960.css.map": "/techsite/static/css/main.9e1cf960.css.map",
+    "main.e3e3a4d6.js.map": "/techsite/static/js/main.e3e3a4d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa061244.css",
-    "static/js/main.988cdee0.js"
+    "static/css/main.9e1cf960.css",
+    "static/js/main.e3e3a4d6.js"
   ]
 }
