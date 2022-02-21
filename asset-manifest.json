@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/techsite/static/css/main.6e2861f4.css",
+    "main.css": "/techsite/static/css/main.b900ba62.css",
     "main.js": "/techsite/static/js/main.b3a89096.js",
     "static/media/devlogo.svg": "/techsite/static/media/devlogo.3b990813e815f49903a7564bc5329704.svg",
     "static/media/mapas.jpg": "/techsite/static/media/mapas.438ef43b11758bab36b3.jpg",
@@ -11,11 +11,11 @@
     "static/media/user-icon.svg": "/techsite/static/media/user-icon.1ad11d7cc33997fc94ef.svg",
     "static/media/graph-line.svg": "/techsite/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
     "static/media/check-sign.svg": "/techsite/static/media/check-sign.a1be6ebcefa454512463.svg",
-    "main.6e2861f4.css.map": "/techsite/static/css/main.6e2861f4.css.map",
+    "main.b900ba62.css.map": "/techsite/static/css/main.b900ba62.css.map",
     "main.b3a89096.js.map": "/techsite/static/js/main.b3a89096.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e2861f4.css",
+    "static/css/main.b900ba62.css",
     "static/js/main.b3a89096.js"
   ]
 }
