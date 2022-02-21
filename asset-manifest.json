@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/techsite/static/css/main.9e1cf960.css",
+    "main.css": "/techsite/static/css/main.fbaf046b.css",
     "main.js": "/techsite/static/js/main.e3e3a4d6.js",
     "static/media/devlogo.svg": "/techsite/static/media/devlogo.3b990813e815f49903a7564bc5329704.svg",
     "static/media/mapas.jpg": "/techsite/static/media/mapas.438ef43b11758bab36b3.jpg",
@@ -12,11 +12,11 @@
     "static/media/kross.svg": "/techsite/static/media/kross.2001e956d267bc9b1a2349ee0a8ee521.svg",
     "static/media/graph-line.svg": "/techsite/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
     "static/media/check-sign.svg": "/techsite/static/media/check-sign.a1be6ebcefa454512463.svg",
-    "main.9e1cf960.css.map": "/techsite/static/css/main.9e1cf960.css.map",
+    "main.fbaf046b.css.map": "/techsite/static/css/main.fbaf046b.css.map",
     "main.e3e3a4d6.js.map": "/techsite/static/js/main.e3e3a4d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1cf960.css",
+    "static/css/main.fbaf046b.css",
     "static/js/main.e3e3a4d6.js"
   ]
 }
