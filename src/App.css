@@ -16,6 +16,16 @@ a, li, p {
     font-weight: 600;
 }
 
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease !important;
+}
+.collapse.in {
+    display: block !important;
+}
+
 
 
 
@@ -108,8 +118,12 @@ li{
     .main {
         min-width: 850px;
     }
+    #section1 {
+        margin-bottom: 16em;
+    }
     .bg-map::before {
-        top: 45em;
+        top: 49em;
+        width: 49em;
     }
     h1,h2 {
         font-size: 5.2rem;
@@ -210,11 +224,16 @@ li{
         #open-menu {
             display: block;
         }
+        #section1 {
+            margin-bottom: 10em;
+        }
         .bg-map::before {
-            top: 39em;
+            top: 43em;
         }
         .section5__list-item {
             margin-top: 1.6em;
+            font-size: 1.6rem;
+
         }
         #section5_2 {
             margin-top: 5em;
@@ -247,17 +266,24 @@ li{
     }
     .section5__description {
         font-family: var(--font3);
-        font-size: 2rem;
+        font-size: 1.9rem;
+        line-height: 1.7;
     }
     .section6__container-title {
         font-size: 2.8rem;
     }
     .section6__container-list-item {
         padding-top: 1.3em;
+
     }
     .footer-bottom {
         flex-direction: column;
     }
+
+    #logo-img {
+        height: 100%;
+    }
+
     .logo-links {
         width: fit-content;
         margin: 0 auto;
@@ -269,6 +295,10 @@ li{
     .footer-header {
         margin-top: 4em;
         width: 70%;
+    }
+    #open-menu {
+        display: block;
+        margin-bottom: 1.86em;
     }
 }
 
@@ -292,9 +322,9 @@ li{
         }   
         .bg-map::before {
             margin: 0 auto;
-            left: -1em;
+            left: 0;
             right: 0;
-            top: 31em;
+            top: 33em;
             width: 90%;
             min-width: 35em;
         }
@@ -512,6 +542,9 @@ li{
         #footer-item-right {
             padding-left: 2em;
         }
+        #logo {
+            height: 40px;
+        }
 
     }
     @media screen and (min-width: 576px)
@@ -535,10 +568,11 @@ li{
             font-size: 1.5rem;
         }
         .bg-map::before {
-            left: -4em;
+            left: -1.5em;
             right: 0;
-            top: 21em;
-            width: 70%;
+            top: 25em;
+            width: 5em;
+            min-width: 30em;
         }
         #top {
             height: 60em;

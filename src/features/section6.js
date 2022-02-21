@@ -56,6 +56,7 @@ function Section6() {
                     <ul className="section6__container-list">
                         <li className="section6__container-list-item">Time reports</li>
                         <li className="section6__container-list-item">Financial dashboard</li>
+                        <li className="section6__container-list-item">Secure Sandbox Environment</li>
                        
                     </ul>
                 </div>

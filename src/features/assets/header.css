@@ -27,17 +27,16 @@
 #collapsUl li {
     margin: 1em 0 1em;
 }
-.collapsing {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.35s ease !important;
+#logo-img {
+    height: 100%;
 }
-.collapse.in {
-    display: block !important;
-}
+
 #header__button {
     display: none;
+}
+
+#logo {
+    height: 80px;
 }
 #list {
     display: flex;

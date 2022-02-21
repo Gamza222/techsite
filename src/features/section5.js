@@ -60,15 +60,15 @@ function Section5() {
             <div>Salary</div>
             </div>
             <div className="right graph">
-            <p className="txt">Reintech Developer</p>
-            <div className="rfee">Reintech fee</div>
+            <p className="txt">Offshore Developer</p>
+            <div className="rfee">Agency's fee</div>
             <div>Developer's cost</div>
             </div>
             </div>
         </div>
         <div className="col-12 col-md-6" id="section5_2">
           <h3 className="section5__title">What does it cost?</h3>
-          <p className='section5__description'>Ukrainian developers are cheaper than US or EU developers. Why? Salaries are lower, and you do not have to pay for insurance and tax. We offer:</p>
+          <p className='section5__description'>We are able to provide than most of the US or EU based agencies. There is no secrete souce: only taxes. We pay all the and ensurance locally thus reducing the tax bur.</p>
           <ul id="section5__list">
             <li className="section5__list-item">Transparent, fixed fees</li>
             <li className="section5__list-item">Seemless transactions - pay directly to developers</li>
@@ -79,7 +79,7 @@ function Section5() {
           <div id="section5_3-container">
             <h3 className="section5__title">How Do I Start?</h3>
             <p className='section5__description'>Send us a message, and we'll contact you to discuss your hiring needs.</p>
-            <a class="btn btn-primary" href="/client/new">Get Started</a>
+            <a class="btn btn-primary" href="#section10">Get Started</a>
           </div>
           </div>
         <div className="col-12 col-md-6" id="section5_4">

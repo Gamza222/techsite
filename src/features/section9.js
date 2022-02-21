@@ -32,7 +32,7 @@ function Section9() {
                         <div className="pricing-options__wrap-footer">
                             <span className="price">$450</span>
                             <div className="pricing-options__description">On top what your contractors earn</div>
-                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#">Get Started</a>
+                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>
                     </li>
 
@@ -69,7 +69,7 @@ function Section9() {
                         <div className="pricing-options__wrap-footer">
                             <span className="price">$700</span>
                             <div className="pricing-options__description">Per developer / month</div>
-                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#">Get Started</a>
+                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>
                     </li>
 
@@ -92,13 +92,13 @@ function Section9() {
                             <li className="pricing-options__item">Build a product with us</li>
                             <li className="pricing-options__item">Fixed price</li>
                             <li className="pricing-options__item">Start fast</li>
-                            <li className="pricing-options__item">Manage team by Reintech</li>
-                            <li className="pricing-options__item">Reintech special force</li>
+                            <li className="pricing-options__item">Manage team by Labfordevs</li>
+                            <li className="pricing-options__item">Labfordevs special force</li>
                         </ul>
                         <div className="pricing-options__wrap-footer">
                             <span className="price">$450</span>
                             <div className="pricing-options__description">On top what your contractors earn</div>
-                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#">Get Started</a>
+                            <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>
                     </li>
                 </div>

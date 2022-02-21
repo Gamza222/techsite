@@ -16,7 +16,7 @@
 }
 .section5__description {
     font-family: var(--font3);
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 #section5_1, #section5_2,#section5_3,#section5_4 {
@@ -39,6 +39,7 @@
     line-height: 1.2;
     padding-left: 3rem;
     margin-top: 1em;
+    font-size: 1.7rem;
 }
 
 .section5__list-item::before {

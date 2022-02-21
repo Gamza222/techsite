@@ -23,6 +23,8 @@
     padding-right: 20px;
     padding-left: 20px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #section4__container-title {
@@ -118,6 +120,26 @@
 
 #message-container {
     margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+#section4 .btn {
+    display: block;
+    font-size: 1.6em;
+    padding: 1.3em;
+    font-weight: bold;
+    font-family: var(--font2);
+    margin: 2em auto;
+    cursor: pointer;
+    max-width: 15em;
+}
+#write-to_us-button {
+    margin-top: 4em !important;
+}
+
+.btn-show {
+    display: none;
 }
 
 @media screen and (max-width: 1050px) {
