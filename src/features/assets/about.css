@@ -1,0 +1,102 @@
+#About {
+    width: 80%;
+    height: 100%;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+#about-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#cross {
+    height: 5em;
+    position: fixed;
+}
+
+a {
+    cursor: pointer;
+}
+
+.About-header {
+    font-size: 6.4rem;
+    font-family: var(--font2);
+}
+
+.about-main {
+    width: 100%;
+    margin-top: 10em;
+}
+    
+.about-text {
+    font-family: var(--font3);
+    margin-top: 2em;
+    font-weight: 600;
+}
+
+.about-descr {
+    font-family: var(--font2);
+    margin-top: 1em;
+}
+
+
+.about-text, .about-descr, .about-text2, .about-text3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.about-text2 {
+    font-family: var(--font3);
+    font-weight: 600;
+    color: #7c6bfa;
+    margin-top: 1em;
+}
+
+.about-section {
+    width: 100%;
+    margin-top: 5em;
+}
+
+#about-text-margin {
+    margin-top: 0.5em;
+}
+
+#size {
+    font-size: 2.6rem;
+}
+
+.about-text3 {
+    color: white;
+}
+
+.about-back {
+    background-color: #9e91ff;
+    border-radius: 20x;
+    color: white;
+    padding: 1em 1em;
+    margin-top: 2em;
+}
+
+.about-descr2 {
+    position: relative;
+    font-size: 2.2rem;
+    margin-top: 1.5em;
+    padding-left: 1.5em;
+}
+
+.about-descr2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.38em;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background: #6aa95e url(../image/check-sign.svg) no-repeat center;
+    background-size: 60%;
+    border-radius: 50%;
+}
+

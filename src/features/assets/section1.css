@@ -23,7 +23,7 @@
     top: 10rem;
     width: 59rem;
     height: 42rem;
-    background: url(http://localhost:3000/static/media/mapas.438ef43….jpg) no-repeat center;
+    background: url(../image/mapas.jpg) no-repeat center;
     background-size: 100%;
     z-index: -1;
 }

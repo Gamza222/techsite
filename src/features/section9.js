@@ -30,7 +30,6 @@ function Section9() {
                             <li className="pricing-options__item">Part time, 80 hrs/month</li>
                         </ul>
                         <div className="pricing-options__wrap-footer">
-                            <span className="price">$450</span>
                             <div className="pricing-options__description">On top what your contractors earn</div>
                             <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>
@@ -67,7 +66,6 @@ function Section9() {
                             <li className="pricing-options__item">Free replacement  </li>
                         </ul>
                         <div className="pricing-options__wrap-footer">
-                            <span className="price">$700</span>
                             <div className="pricing-options__description">Per developer / month</div>
                             <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>
@@ -96,7 +94,6 @@ function Section9() {
                             <li className="pricing-options__item">Labfordevs special force</li>
                         </ul>
                         <div className="pricing-options__wrap-footer">
-                            <span className="price">$450</span>
                             <div className="pricing-options__description">On top what your contractors earn</div>
                             <a class="btn-grey btn btn-outline-primary d-block" id="half-time" href="#section10">Get Started</a>
                         </div>

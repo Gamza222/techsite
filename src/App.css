@@ -26,6 +26,15 @@ a, li, p {
     display: block !important;
 }
 
+.Everything {
+    width: 100%;
+    height: 100%;
+    display: blok;
+}
+
+.Nothing {
+    display: none;
+}
 
 
 
@@ -95,6 +104,28 @@ li{
 .btn {
     min-width: 24rem;
 }
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    background-color: transparent;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  #myBtn-arrow {
+    width: 3em;
+    height: 3em;
+    color: green;
+}
+
+ 
 
 
 
@@ -203,6 +234,12 @@ li{
         width: 100%;
         margin: 0.4em 0 2em 0;
     }
+    
+    .about-main {
+        width: 100%;
+        margin-top: 10em;
+        padding: 0;
+    }
 }
 @media screen and (max-width: 860px) {
   
@@ -259,6 +296,18 @@ li{
         #section10 .btn {
             width: 100%;
         }
+        #About {
+            width: 100%;
+        }
+        .About-header {
+            font-size: 4.4rem;
+            font-family: var(--font2);
+        }
+        .about-text {
+            font-size: 2rem;
+            font-family: var(--font3);
+            margin-top: 1em;
+        }
     }
 @media screen and (max-width: 860px) {
     .section5__title {
@@ -266,7 +315,7 @@ li{
     }
     .section5__description {
         font-family: var(--font3);
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         line-height: 1.7;
     }
     .section6__container-title {
@@ -279,11 +328,12 @@ li{
     .footer-bottom {
         flex-direction: column;
     }
-
-    #logo-img {
-        height: 100%;
+    #section5_1 {
+        padding-right: 2;
     }
-
+    .about-main {
+        margin-top: 1em;
+    }
     .logo-links {
         width: fit-content;
         margin: 0 auto;
@@ -299,6 +349,12 @@ li{
     #open-menu {
         display: block;
         margin-bottom: 1.86em;
+    }
+    .about-descr2 {
+        font-size: 2rem;
+    }
+    #about-header {
+        width: 90%;
     }
 }
 
@@ -545,7 +601,17 @@ li{
         #logo {
             height: 40px;
         }
-
+        .about-text, .about-descr, .about-text2 {
+            font-size: 1.8rem;
+        }
+        .person-min {
+            margin-top: 0;
+        }
+        #myBtn-arrow {
+            width: 2em;
+            height: 2em;
+            color: green;
+        }
     }
     @media screen and (min-width: 576px)
     {
@@ -627,6 +693,30 @@ li{
         #section6 .titles {
             font-size: 3.2rem;
             margin-left: 0.54em;
+        }
+        .About-header {
+            font-size: 3rem;
+        }
+        .about-text, .about-descr, .about-text2 {
+            font-size: 1.6rem;
+        }
+        #About {
+            padding: 0 2em;
+        }
+        .about-descr2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.19em;
+            display: block;
+            width: 1.4rem;
+            height: 1.4rem;
+            background: #6aa95e url(http://localhost:3000/techsite/static/media/check-sign.a1be6eb….svg) no-repeat center;
+            background-size: 60%;
+            border-radius: 50%;
+        }
+        .about-descr2 {
+            font-size: 1.6rem;
         }
     }
 

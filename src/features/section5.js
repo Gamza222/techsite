@@ -68,11 +68,11 @@ function Section5() {
         </div>
         <div className="col-12 col-md-6" id="section5_2">
           <h3 className="section5__title">What does it cost?</h3>
-          <p className='section5__description'>We are able to provide than most of the US or EU based agencies. There is no secrete souce: only taxes. We pay all the and ensurance locally thus reducing the tax bur.</p>
+          <p className='section5__description'>We are able to provide 25%-45% better rates than most of the US or EU based agencies. There is no secrete souce: only lower taxes. We pay all the taxes and insurance fees locally thus reducing the tax burden.</p>
           <ul id="section5__list">
             <li className="section5__list-item">Transparent, fixed fees</li>
-            <li className="section5__list-item">Seemless transactions - pay directly to developers</li>
-            <li className="section5__list-item">Pay as you go fees - pay only for working hours</li>
+            <li className="section5__list-item">Seemless transactions</li>
+            <li className="section5__list-item">Pay as you go fees</li>
           </ul>
         </div>
         <div class="col-12 col-md-6" id="section5_3">

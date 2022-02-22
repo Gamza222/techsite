@@ -1,5 +1,7 @@
 import React from 'react';
 import './assets/section8.css';
+import person1 from './image/person2.png';
+import person2 from './image/person3.png';
 
 function Section8() {
   return (
@@ -10,7 +12,7 @@ function Section8() {
         <p className="texts">Here are a few of the developers you could find in our database</p>
         <ul id="team">
             <li className="nigga nigga-left">
-                <img src="https://reintech.io/assets/team/portrait_sergiy-b332951d3e1abc34ad8bcc6dbe590ce3c86771eab48be2f15ed05d74e6042b09.jpg" alt="" className="nig-image" />
+                <img src={person1} alt="" className="nig-image" />
                 <div className="person-min">
                 <a href="#" className="name">Alex</a>
                 <div className="nigga-text">
@@ -27,7 +29,7 @@ function Section8() {
                 </div></div>
             </li>
             <li className="nigga">
-                <img src="https://reintech.io/assets/team/portrait_sergiy-b332951d3e1abc34ad8bcc6dbe590ce3c86771eab48be2f15ed05d74e6042b09.jpg" alt="" className="nig-image" />
+                <img src={person2} alt="" className="nig-image" />
                 <div className="person-min">
                 <a href="#" className="name">Andrei</a>
                 <div className="nigga-text">
@@ -44,7 +46,7 @@ function Section8() {
                 </div></div>
             </li>
             <li className="nigga">
-                <img src="https://reintech.io/assets/team/portrait_sergiy-b332951d3e1abc34ad8bcc6dbe590ce3c86771eab48be2f15ed05d74e6042b09.jpg" alt="" className="nig-image" />
+                <img src={person1} alt="" className="nig-image" />
                 <div className="person-min">
                 <a href="#" className="name">Zhenia</a>
                 <div className="nigga-text">
@@ -61,7 +63,7 @@ function Section8() {
                 </div></div>
             </li>
             <li className="nigga">
-                <img src="https://reintech.io/assets/team/portrait_sergiy-b332951d3e1abc34ad8bcc6dbe590ce3c86771eab48be2f15ed05d74e6042b09.jpg" alt="" className="nig-image" />
+                <img src={person2} alt="" className="nig-image" />
                 <div className="person-min">
                 <a href="#" className="name">Kostia</a>
                 <div className="nigga-text">

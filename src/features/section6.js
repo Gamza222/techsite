@@ -11,7 +11,7 @@ function Section6() {
                 <div className="section6__container">
                     <h4 className="section6__container-title">Superb Talent Network</h4>
                     <ul className="section6__container-list">
-                        <li className="section6__container-list-item">The top 5% of Easter European developers are part of our network</li>
+                        <li className="section6__container-list-item">The top 5% of Eastern European developers are part of our network</li>
                         <li className="section6__container-list-item">Our developers speak fluent English</li>
                         <li className="section6__container-list-item">All our developers are tested and vetted by independent CTOs</li>
                         <li className="section6__container-list-item">Access senior talent at reduced rates</li>

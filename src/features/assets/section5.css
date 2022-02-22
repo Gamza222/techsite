@@ -3,7 +3,9 @@
     margin-bottom: 10em;
     width: 100%;
 }
-
+#section5_1 {
+    padding-right: 15em;
+}
 #section5__container {
     width: 100%;
 }
@@ -20,7 +22,7 @@
 }
 
 #section5_1, #section5_2,#section5_3,#section5_4 {
-    padding: 0 2em;
+    padding: 0 1.5em;
 }
 #section5_3-container {
     display: flex;
