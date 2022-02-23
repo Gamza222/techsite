@@ -2,7 +2,7 @@
   "name": "techsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gamza222.github.io/techsite/",
+  "homepage": "http://www.labsfordevs.com/",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@reduxjs/toolkit": "^1.7.2",

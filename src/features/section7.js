@@ -10,18 +10,22 @@ function Section7() {
             <ul className="blocks">
                 <li className="bloks-elem">
                     <img alt="item-comma2" className="coma" src={comma1}/>
-                    <p className="bloks-elem__text">Working with Reintech has been very productive for my business. They have helped us solve issues that other staffing agencies have not, such as finding developers who will start on a part-time basis and grow into full-time contractors as our business grows.</p>
+                    <p className="bloks-elem__text">We've been trying to put together a functional remote dev team since I began my startup journey in April of 2021. I am happy to say we finally hired the Labsfordevs guys and they've worked closely with us throughout the hiring and vetting process, staying on task, on target, and on budget. I also appreciate their quick and courteous responses. Highly recommend.
+ 
+ Sean, Non-Tech Startup Founder, USA
+ 
+ Am really impressed by the quality of services I received from Labsfordevs. You were right on schedule, offered superbly attractive rates, and delivered a highly skilled software engineering unit well before time. I have received an awesome e-commerce product.
+ </p>
                     <div className="block-info">
-                        <p className="bloks-elem__author">Lev Kaye</p>
-                        <span className='bloks-elem__author-desc'>Founder and CEO, CredSpark</span>
+                        <span className='bloks-elem__author-desc'>General Manager, Equipment Company, Canada</span>
                     </div>
                 </li>
                 <li className="bloks-elem">
                     <img alt="item-comma2" className="coma" src={comma1}/>
-                    <p className="bloks-elem__text">As a remote-first fintech startup, we were looking for software engineers to form part of our core team. Reintech were very helpful and easy to work with, supplementing their wide network of developers with market insight and advice. They were also accommodating in terms of stepping in where we needed extra help but still being flexible when we preferred to do things ourselves. I would recommend them to anyone who is considering hiring remote developers in eastern europe.</p>
+                    <p className="bloks-elem__text">We thank Labsfordevs for the wonderful job in helping us setup a remote team in Belarus. Every developer on the team was professional, excellent and hard working. Thanks to them, we were able to achieve our goal on time, and we look forward to continue working.</p>
                     <div className="block-info">
                         
-                        <span className='bloks-elem__author-desc'>Founder and CEO of Fintech startup</span>
+                        <span className='bloks-elem__author-desc'>B2B SaaS, CEO/Co-Founder</span>
                     </div>
                 </li>
 

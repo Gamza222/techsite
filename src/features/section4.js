@@ -104,14 +104,6 @@ function Section4() {
             <div class="answer-circle"></div>
             <p class="answer-text">We charge a fixed fee on top of what the developer earns. It is around 10%.</p>
         </li>
-        <li class="message">
-            <div class="message-circle"></div>
-            <p class="message-text">Why Ruby and JavaScript?</p>
-        </li>
-        <li class="answer">
-            <div class="answer-circle"></div>
-            <p class="answer-text">That's a long story; I'll share it on a call 😉</p>
-        </li>
         
         
         <a class="btn btn-outline-light" id="write-to_us-button"  href="#section10">Write to Us</a>

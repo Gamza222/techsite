@@ -31,7 +31,7 @@ function Section10() {
            <h3 className="section10__title">Contact Us</h3>
            <div className="section10__descr-container">
            <p className="section10__descr">If you have more questions or if you'd like to browse more developer profiles, send us a message.</p>
-           <a href="#" className="email">contact.labsfordevs.com</a>
+           {/** <a href="#" className="email">contact.labsfordevs.com</a> **/}
            </div>   
            <form ref={form} onSubmit={sendEmail} className="form-control" id="myform">
                <div className="form-input">
