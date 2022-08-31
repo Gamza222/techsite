@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f35f740.css",
-    "main.js": "/static/js/main.d6be8c19.js",
-    "static/media/logodev.svg": "/static/media/logodev.5271ee34e875431a0657b39168932772.svg",
-    "static/media/pc-working.jpg": "/static/media/pc-working.976c0d310969e9236c2a.jpg",
-    "static/media/person3.png": "/static/media/person3.ff5ffe5493e27b533918.png",
-    "static/media/person2.png": "/static/media/person2.de65685f5ebd4309c4a3.png",
-    "static/media/mapas.jpg": "/static/media/mapas.547ffefa8719fea4242b.jpg",
-    "static/media/messages-bg.png": "/static/media/messages-bg.0bba097cf0c138b4d60b.png",
-    "index.html": "/index.html",
-    "static/media/arrow-top.svg": "/static/media/arrow-top.80d920fb5f038a53d86d4e1cf2a39bf5.svg",
-    "static/media/comma1.svg": "/static/media/comma1.7a832725e773de3aff3799f094b904b8.svg",
-    "static/media/answer-icon.svg": "/static/media/answer-icon.a92d8770f1855f9f59e9.svg",
-    "static/media/user-icon.svg": "/static/media/user-icon.1ad11d7cc33997fc94ef.svg",
-    "static/media/kross.svg": "/static/media/kross.2001e956d267bc9b1a2349ee0a8ee521.svg",
-    "static/media/graph-line.svg": "/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
-    "static/media/check-sign.svg": "/static/media/check-sign.a1be6ebcefa454512463.svg",
-    "main.6f35f740.css.map": "/static/css/main.6f35f740.css.map",
-    "main.d6be8c19.js.map": "/static/js/main.d6be8c19.js.map"
+    "main.css": "/techsite/static/css/main.e7566974.css",
+    "main.js": "/techsite/static/js/main.f769e733.js",
+    "static/media/logodev.svg": "/techsite/static/media/logodev.5271ee34e875431a0657b39168932772.svg",
+    "static/media/pc-working.jpg": "/techsite/static/media/pc-working.976c0d310969e9236c2a.jpg",
+    "static/media/person3.png": "/techsite/static/media/person3.ff5ffe5493e27b533918.png",
+    "static/media/person2.png": "/techsite/static/media/person2.de65685f5ebd4309c4a3.png",
+    "static/media/mapas.jpg": "/techsite/static/media/mapas.547ffefa8719fea4242b.jpg",
+    "static/media/messages-bg.png": "/techsite/static/media/messages-bg.0bba097cf0c138b4d60b.png",
+    "index.html": "/techsite/index.html",
+    "static/media/arrow-top.svg": "/techsite/static/media/arrow-top.80d920fb5f038a53d86d4e1cf2a39bf5.svg",
+    "static/media/comma1.svg": "/techsite/static/media/comma1.7a832725e773de3aff3799f094b904b8.svg",
+    "static/media/answer-icon.svg": "/techsite/static/media/answer-icon.a92d8770f1855f9f59e9.svg",
+    "static/media/user-icon.svg": "/techsite/static/media/user-icon.1ad11d7cc33997fc94ef.svg",
+    "static/media/kross.svg": "/techsite/static/media/kross.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "static/media/graph-line.svg": "/techsite/static/media/graph-line.b3531a1b63a3d57c89f2.svg",
+    "static/media/check-sign.svg": "/techsite/static/media/check-sign.a1be6ebcefa454512463.svg",
+    "main.e7566974.css.map": "/techsite/static/css/main.e7566974.css.map",
+    "main.f769e733.js.map": "/techsite/static/js/main.f769e733.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f35f740.css",
-    "static/js/main.d6be8c19.js"
+    "static/css/main.e7566974.css",
+    "static/js/main.f769e733.js"
   ]
 }
